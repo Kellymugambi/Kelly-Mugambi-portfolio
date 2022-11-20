@@ -7,13 +7,26 @@
   height: 15vh;
   background-image: url(./images/sky.jpg);
   background-size: cover;
-}
+ }
 
- .top {
+ .h {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   color: white;
+
 }
+
+.navbar > img { 
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  
+}
+.navbar{
+  text-align: right;
+}
+
+
 
 #Bio {
   height: 80vh;
@@ -24,14 +37,17 @@
   }
 
   #Bio div h2 {
-color: rgb(224, 21, 157);
+color: rgb(23, 139, 39);
 font-size: 60px;
   }
 
 
   #footer {
-    background-color: black;
+    background-color: rgb(180, 157, 157);
     height: 20vh;
-    color: white;
+    color: black;
+    font-size: 20px;
   }
- 
+  .contact {
+    color: rgb(22, 5, 68);
+  }
