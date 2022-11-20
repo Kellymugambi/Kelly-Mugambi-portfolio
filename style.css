@@ -4,24 +4,30 @@
 }
 
 #navbar {
-  background-color: whitesmoke;
   height: 15vh;
-  
+  background-image: url(./images/sky.jpg);
+  background-size: cover;
 }
 
-#navbar div h1 {
+ .top {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: white;
 }
 
-#about {
+#Bio {
   height: 80vh;
   background-image: url(./images/computer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   }
-  
-  
+
+  #Bio div h2 {
+color: rgb(224, 21, 157);
+font-size: 60px;
+  }
+
 
   #footer {
     background-color: black;
