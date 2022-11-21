@@ -34,21 +34,20 @@
 .h2 {
 color: white;
 font-size: 60px;
-text-align: center;
 font-weight: bolder;
 }
   #about {
-    font-size: 25px;
+
     color:white;
     font-weight: bold;
-    padding-left: 2%;
+    font-size: 25px;
+    
   }
 
 #skills {
   font-size: 20px;
-  padding-left: 70%;
   font-weight: bold;
-  padding-top: 5%;
+  
 }
 .education {
 font-size: 20px;
