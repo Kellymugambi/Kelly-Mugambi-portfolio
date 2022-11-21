@@ -10,23 +10,20 @@
  }
 
  .h {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
   color: white;
-
 }
 
-.navbar > img { 
+.image > img { 
   height: 150px;
   width: 150px;
   border-radius: 50%;
   
 }
-.navbar{
+.image{
   text-align: right;
 }
-
-
 
 #Bio {
   height: 80vh;
@@ -34,20 +31,47 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: rgb(72, 4, 131);
+  
+
   }
 
-  #Bio div h2 {
-color: rgb(23, 139, 39);
+.h2 {
+color: rgb(3, 3, 3);
 font-size: 60px;
+text-align: center;
+font-weight: bolder;
+
   }
+
+
+  #about {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+
+#skills {
+  font-size: 30px;
+  padding-left: 70%;
+  font-weight: bold;
+  
+}
+.education {
+font-size: 30px;
+font-weight: bold;
+padding-left: 0%;
+
+}
+
 
 
   #footer {
-    background-color: rgb(180, 157, 157);
+    background-color: rgb(197, 183, 183);
     height: 20vh;
-    color: black;
+    color: rgb(12, 11, 11);
     font-size: 20px;
-  }
-  .contact {
-    color: rgb(22, 5, 68);
+    
+    
   }
