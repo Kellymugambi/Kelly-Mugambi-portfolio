@@ -11,7 +11,7 @@ body {
 
 header {
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: rgb(71, 63, 151);
   padding: 20px;
 }
 
@@ -22,7 +22,7 @@ header h1 {
 header h2 {
   font-size: 24px;
   font-weight: normal;
-  color: #777;
+  color: #1f1c1c;
 }
 
 section {
@@ -36,6 +36,14 @@ section h2 {
 
 footer {
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: rgb(71, 63, 151);
   padding: 10px;
+}
+
+#avatar {
+    width: 152px; /* Set the desired width */
+    height: 152px; /* Set the desired height */
+    border-radius: 50%; /* Make the image circular (for a round avatar) */
+    border: 2px solid #070707; /* Add a border around the image */
+  
 }
