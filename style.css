@@ -1,66 +1,41 @@
-#navbar {
-  height: 15vh;
-  background-image: url(./images/sky.jpg);
-  background-size: cover;
- }
-
- .h {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
-  color: white;
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
 }
 
-.image > img { 
-  height: 170px;
-  width: 170px;
-  border-radius: 50%;
-  
-}
-.image{
-  text-align: right;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-
-
-#Bio {
-  height: 80vh;
-  background-image: url(./images/computer.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  }
-
-.h2 {
-color: white;
-font-size: 50px;
-font-weight: bolder;
-}
-  #about {
-
-    color:white;
-    font-weight: bold;
-    font-size: 25px;
-    
-  }
-
-#skills {
-  font-size: 20px;
-  font-weight: bold;
-  
-}
-.education {
-font-size: 20px;
-font-weight: bold;
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
 }
 
+header h1 {
+  font-size: 36px;
+}
 
+header h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #777;
+}
 
-#footer {
-    background-color: rgb(61, 58, 53);
-    height: 20vh;
-    color: whitesmoke;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-  }
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
