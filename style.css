@@ -1,49 +1,83 @@
 /* Reset some default styles for better consistency */
-body, h1, h2, p {
+body, h1, p {
   margin: 0;
   padding: 0;
+  color: aqua;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-image: url(/images/computer.jpg);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 header {
   text-align: center;
-  background-color: rgb(71, 63, 151);
+  background-color: #473F97;
   padding: 20px;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 header h1 {
   font-size: 36px;
+  margin-bottom: 10px;
+  color: #fff; /* Font color */
 }
 
 header h2 {
   font-size: 24px;
   font-weight: normal;
-  color: #1f1c1c;
+  color: #ddd; /* Font color */
 }
 
-section {
-  padding: 40px;
-}
-
-section h2 {
-  font-size: 28px;
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
-footer {
-  text-align: center;
-  background-color: rgb(71, 63, 151);
-  padding: 10px;
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
 }
 
+#about {
+  flex-basis: 45%;
+  background-color: black;
+  color: #f7eeee;
+  font-size: large;
+}
+
+#projects {
+  flex-basis: 45%;
+  background-color: black;
+  color: #f7eeee;
+  font-size: large;
+}
+
+#contact {
+  background-color:#473F97;
+  color: #fff;
+  font-size: large;
+}
 #avatar {
-    width: 152px; /* Set the desired width */
-    height: 152px; /* Set the desired height */
-    border-radius: 50%; /* Make the image circular (for a round avatar) */
-    border: 2px solid #070707; /* Add a border around the image */
-  
+  width: 152px; /* Set the desired width */
+  height: 152px; /* Set the desired height */
+  border-radius: 50%; /* Make the image circular (for a round avatar) */
+  border: 2px solid #070707; /* Add a border around the image */
+
 }
